@@ -4,7 +4,7 @@ from ortools.constraint_solver import routing_enums_pb2
 import csv
 
 def distance(x1, y1, x2, y2):
-    # Manhattan distance
+    # Manhattan distance OKAY
     dist = abs(x1 - x2) + abs(y1 - y2)
 
     return dist
